@@ -20,7 +20,7 @@ function setup() {
   background("white");
 
   createModel();
-  // train(30);
+  train(30);
 
   pixelData = getCompressedPixelData();
 
@@ -29,6 +29,8 @@ function setup() {
 
   createP("prediction:");
   predictionP = createP();
+
+  createButton("clear").mousePressed(()=>background("white"))
 
   createButton("see").mousePressed(showPixelData);
 }
