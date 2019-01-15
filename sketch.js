@@ -4,7 +4,7 @@ const HEIGHT = 300;
 const SPLITS = 15;
 const SECTOR_WIDTH = WIDTH / SPLITS;
 const SECTOR_HEIGHT = HEIGHT / SPLITS;
-const pixel_threshold = 0.2;
+const pixel_threshold = 0.4;
 let points = [];
 let numPicker;
 let pixelData;
